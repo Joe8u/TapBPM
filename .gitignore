@@ -1,0 +1,22 @@
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+DerivedData
+*.xcuserstate
+
+# Build products
+build/
+*.o
+*.LinkFileList
+*.hmap
+
+# Verschiedenes
+.DS_Store
+*.swp
+

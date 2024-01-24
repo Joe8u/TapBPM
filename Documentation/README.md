@@ -28,8 +28,10 @@ Die App kann direkt aus dem App Store für iOS und den Watch App Store für watc
 ## Entwicklung
 
 ### Voraussetzungen
+
 - Xcode
-- iOS 16.0+ / watchOS 0.0+
+- iOS 16.0+ / watchOS 10.0+
+
 - Swift 5
 
 ### Projekt-Setup
