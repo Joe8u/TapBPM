@@ -36,7 +36,7 @@ Die App kann direkt aus dem App Store für iOS und den Watch App Store für watc
 Klonen Sie das Repository und öffnen Sie die `.xcodeproj`-Datei in Xcode:
 
 ```bash
-git clone https://github.com/IhrGithubUsername/TapBPM.git
+git clone https://github.com/joe8u/TapBPM.git
 cd TapBPM
 open TapBPM.xcodeproj
 ## Support
