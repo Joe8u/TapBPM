@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABBE003D2B614D9B00B9B2C5 /* TapBPMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE003C2B614D9B00B9B2C5 /* TapBPMApp.swift */; };
+		ABBE003F2B614D9B00B9B2C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE003E2B614D9B00B9B2C5 /* ContentView.swift */; };
+		ABBE00412B614D9C00B9B2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBE00402B614D9C00B9B2C5 /* Assets.xcassets */; };
+		ABBE00442B614D9C00B9B2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBE00432B614D9C00B9B2C5 /* Preview Assets.xcassets */; };
+		ABBE004A2B614D9C00B9B2C5 /* TapBPM Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ABBE00492B614D9C00B9B2C5 /* TapBPM Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABBE004F2B614D9C00B9B2C5 /* TapBPMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE004E2B614D9C00B9B2C5 /* TapBPMApp.swift */; };
+		ABBE00512B614D9C00B9B2C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE00502B614D9C00B9B2C5 /* ContentView.swift */; };
+		ABBE00532B614D9D00B9B2C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBE00522B614D9D00B9B2C5 /* Assets.xcassets */; };
+		ABBE00562B614D9D00B9B2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBE00552B614D9D00B9B2C5 /* Preview Assets.xcassets */; };
+		ABBE00622B61500C00B9B2C5 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE00612B61500C00B9B2C5 /* HealthKitManager.swift */; };
+		ABBE00652B61505D00B9B2C5 /* UserTapBPMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE00642B61505D00B9B2C5 /* UserTapBPMService.swift */; };
+		ABBE006D2B61533200B9B2C5 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE00612B61500C00B9B2C5 /* HealthKitManager.swift */; };
+		ABBE006E2B61533500B9B2C5 /* UserTapBPMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE00642B61505D00B9B2C5 /* UserTapBPMService.swift */; };
+		ABBE00742B6162C800B9B2C5 /* UserBPMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE00732B6162C800B9B2C5 /* UserBPMService.swift */; };
+		ABBE00752B61633400B9B2C5 /* UserBPMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBE00732B6162C800B9B2C5 /* UserBPMService.swift */; };
+		ABBE00782B6181BB00B9B2C5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABBE00772B6181BB00B9B2C5 /* README.md */; };
+		ABBE00792B6181BB00B9B2C5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ABBE00772B6181BB00B9B2C5 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABBE004B2B614D9C00B9B2C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABBE00312B614D9B00B9B2C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABBE00482B614D9C00B9B2C5;
+			remoteInfo = "TapBPM Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABBE005C2B614D9D00B9B2C5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ABBE004A2B614D9C00B9B2C5 /* TapBPM Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABBE00392B614D9B00B9B2C5 /* TapBPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapBPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBE003C2B614D9B00B9B2C5 /* TapBPMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBPMApp.swift; sourceTree = "<group>"; };
+		ABBE003E2B614D9B00B9B2C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABBE00402B614D9C00B9B2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABBE00432B614D9C00B9B2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABBE00492B614D9C00B9B2C5 /* TapBPM Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TapBPM Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBE004E2B614D9C00B9B2C5 /* TapBPMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBPMApp.swift; sourceTree = "<group>"; };
+		ABBE00502B614D9C00B9B2C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABBE00522B614D9D00B9B2C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABBE00552B614D9D00B9B2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABBE00612B61500C00B9B2C5 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		ABBE00642B61505D00B9B2C5 /* UserTapBPMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTapBPMService.swift; sourceTree = "<group>"; };
+		ABBE00662B61510000B9B2C5 /* TapBPM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TapBPM.entitlements; sourceTree = "<group>"; };
+		ABBE00672B61510600B9B2C5 /* TapBPM Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TapBPM Watch App.entitlements"; sourceTree = "<group>"; };
+		ABBE00732B6162C800B9B2C5 /* UserBPMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBPMService.swift; sourceTree = "<group>"; };
+		ABBE00772B6181BB00B9B2C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABBE00362B614D9B00B9B2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE00462B614D9C00B9B2C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABBE00302B614D9B00B9B2C5 = {
+			isa = PBXGroup;
+			children = (
+				ABBE00762B61819D00B9B2C5 /* Documentation */,
+				ABBE00632B61504D00B9B2C5 /* Service */,
+				ABBE00602B614FFF00B9B2C5 /* Manager */,
+				ABBE003B2B614D9B00B9B2C5 /* TapBPM */,
+				ABBE004D2B614D9C00B9B2C5 /* TapBPM Watch App */,
+				ABBE003A2B614D9B00B9B2C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABBE003A2B614D9B00B9B2C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00392B614D9B00B9B2C5 /* TapBPM.app */,
+				ABBE00492B614D9C00B9B2C5 /* TapBPM Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABBE003B2B614D9B00B9B2C5 /* TapBPM */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00662B61510000B9B2C5 /* TapBPM.entitlements */,
+				ABBE003C2B614D9B00B9B2C5 /* TapBPMApp.swift */,
+				ABBE003E2B614D9B00B9B2C5 /* ContentView.swift */,
+				ABBE00402B614D9C00B9B2C5 /* Assets.xcassets */,
+				ABBE00422B614D9C00B9B2C5 /* Preview Content */,
+			);
+			path = TapBPM;
+			sourceTree = "<group>";
+		};
+		ABBE00422B614D9C00B9B2C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00432B614D9C00B9B2C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABBE004D2B614D9C00B9B2C5 /* TapBPM Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00672B61510600B9B2C5 /* TapBPM Watch App.entitlements */,
+				ABBE004E2B614D9C00B9B2C5 /* TapBPMApp.swift */,
+				ABBE00502B614D9C00B9B2C5 /* ContentView.swift */,
+				ABBE00522B614D9D00B9B2C5 /* Assets.xcassets */,
+				ABBE00542B614D9D00B9B2C5 /* Preview Content */,
+			);
+			path = "TapBPM Watch App";
+			sourceTree = "<group>";
+		};
+		ABBE00542B614D9D00B9B2C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00552B614D9D00B9B2C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABBE00602B614FFF00B9B2C5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00612B61500C00B9B2C5 /* HealthKitManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		ABBE00632B61504D00B9B2C5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00642B61505D00B9B2C5 /* UserTapBPMService.swift */,
+				ABBE00732B6162C800B9B2C5 /* UserBPMService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		ABBE00762B61819D00B9B2C5 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				ABBE00772B6181BB00B9B2C5 /* README.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABBE00382B614D9B00B9B2C5 /* TapBPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBE005D2B614D9D00B9B2C5 /* Build configuration list for PBXNativeTarget "TapBPM" */;
+			buildPhases = (
+				ABBE00352B614D9B00B9B2C5 /* Sources */,
+				ABBE00362B614D9B00B9B2C5 /* Frameworks */,
+				ABBE00372B614D9B00B9B2C5 /* Resources */,
+				ABBE005C2B614D9D00B9B2C5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABBE004C2B614D9C00B9B2C5 /* PBXTargetDependency */,
+			);
+			name = TapBPM;
+			productName = TapBPM;
+			productReference = ABBE00392B614D9B00B9B2C5 /* TapBPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABBE00482B614D9C00B9B2C5 /* TapBPM Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBE00592B614D9D00B9B2C5 /* Build configuration list for PBXNativeTarget "TapBPM Watch App" */;
+			buildPhases = (
+				ABBE00452B614D9C00B9B2C5 /* Sources */,
+				ABBE00462B614D9C00B9B2C5 /* Frameworks */,
+				ABBE00472B614D9C00B9B2C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TapBPM Watch App";
+			productName = "TapBPM Watch App";
+			productReference = ABBE00492B614D9C00B9B2C5 /* TapBPM Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABBE00312B614D9B00B9B2C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ABBE00382B614D9B00B9B2C5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ABBE00482B614D9C00B9B2C5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = ABBE00342B614D9B00B9B2C5 /* Build configuration list for PBXProject "TapBPM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABBE00302B614D9B00B9B2C5;
+			productRefGroup = ABBE003A2B614D9B00B9B2C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABBE00382B614D9B00B9B2C5 /* TapBPM */,
+				ABBE00482B614D9C00B9B2C5 /* TapBPM Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABBE00372B614D9B00B9B2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE00782B6181BB00B9B2C5 /* README.md in Resources */,
+				ABBE00442B614D9C00B9B2C5 /* Preview Assets.xcassets in Resources */,
+				ABBE00412B614D9C00B9B2C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE00472B614D9C00B9B2C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE00792B6181BB00B9B2C5 /* README.md in Resources */,
+				ABBE00562B614D9D00B9B2C5 /* Preview Assets.xcassets in Resources */,
+				ABBE00532B614D9D00B9B2C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABBE00352B614D9B00B9B2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE003F2B614D9B00B9B2C5 /* ContentView.swift in Sources */,
+				ABBE00742B6162C800B9B2C5 /* UserBPMService.swift in Sources */,
+				ABBE003D2B614D9B00B9B2C5 /* TapBPMApp.swift in Sources */,
+				ABBE00652B61505D00B9B2C5 /* UserTapBPMService.swift in Sources */,
+				ABBE00622B61500C00B9B2C5 /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBE00452B614D9C00B9B2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBE006E2B61533500B9B2C5 /* UserTapBPMService.swift in Sources */,
+				ABBE00512B614D9C00B9B2C5 /* ContentView.swift in Sources */,
+				ABBE00752B61633400B9B2C5 /* UserBPMService.swift in Sources */,
+				ABBE004F2B614D9C00B9B2C5 /* TapBPMApp.swift in Sources */,
+				ABBE006D2B61533200B9B2C5 /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABBE004C2B614D9C00B9B2C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABBE00482B614D9C00B9B2C5 /* TapBPM Watch App */;
+			targetProxy = ABBE004B2B614D9C00B9B2C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABBE00572B614D9D00B9B2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABBE00582B614D9D00B9B2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ABBE005A2B614D9D00B9B2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TapBPM Watch App/TapBPM Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapBPM Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VLK5RXUL27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TapBPM;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to your heart rate data";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = bio.mindful.TapBPM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bio.mindful.TapBPM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		ABBE005B2B614D9D00B9B2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TapBPM Watch App/TapBPM Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapBPM Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VLK5RXUL27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TapBPM;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to your heart rate data";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = bio.mindful.TapBPM;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bio.mindful.TapBPM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		ABBE005E2B614D9D00B9B2C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapBPM/TapBPM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapBPM/Preview Content\"";
+				DEVELOPMENT_TEAM = VLK5RXUL27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TapBPM;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bio.mindful.TapBPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABBE005F2B614D9D00B9B2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapBPM/TapBPM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapBPM/Preview Content\"";
+				DEVELOPMENT_TEAM = VLK5RXUL27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TapBPM;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bio.mindful.TapBPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABBE00342B614D9B00B9B2C5 /* Build configuration list for PBXProject "TapBPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBE00572B614D9D00B9B2C5 /* Debug */,
+				ABBE00582B614D9D00B9B2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBE00592B614D9D00B9B2C5 /* Build configuration list for PBXNativeTarget "TapBPM Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBE005A2B614D9D00B9B2C5 /* Debug */,
+				ABBE005B2B614D9D00B9B2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBE005D2B614D9D00B9B2C5 /* Build configuration list for PBXNativeTarget "TapBPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBE005E2B614D9D00B9B2C5 /* Debug */,
+				ABBE005F2B614D9D00B9B2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABBE00312B614D9B00B9B2C5 /* Project object */;
+}
